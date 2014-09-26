@@ -1,0 +1,19 @@
+{
+  "name": "change-me",
+  "version": "0.0.1",
+  "description": "change-me",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "[change-me]"
+  },
+  "author": "Taylor Flagg",
+  "license": "ISC",
+  "bugs": {
+    "url": "[change-me]/issues"
+  },
+  "homepage": "https://github.com/trflagg/koa-start"
+}
