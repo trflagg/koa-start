@@ -19,6 +19,7 @@
   "dependencies": {
     "koa": "^0.13.0",
     "koa-logger": "^1.2.2",
-    "koa-router": "^3.7.0"
+    "koa-router": "^3.7.0",
+    "koa-session": "^2.0.0"
   }
 }
