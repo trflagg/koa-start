@@ -5,6 +5,7 @@
  */
 
 var fs = require('fs')
+    , logger = require('koa-logger')
     , router = require('koa-router')
     , koa = require('koa');
 
@@ -13,6 +14,7 @@ var app = module.exports = koa();
 /**
  * Middleware
  */
+app.use(logger());
 app.use(router(app));
 
 /**
