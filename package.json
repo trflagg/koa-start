@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/trflagg/koa-start",
   "dependencies": {
+    "argieDB": "git://github.com/trflagg/argieDB.git",
     "koa": "^0.13.0",
     "koa-logger": "^1.2.2",
     "koa-router": "^3.7.0",
