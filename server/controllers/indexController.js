@@ -13,6 +13,6 @@ module.exports = function(app) {
      */
     app.get('/', index);
     function *index() {
-        this.body = 'hello world';
+        this.body = '<img src="Winslow_Homer_004.jpg">';
     }
 }

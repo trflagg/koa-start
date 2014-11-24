@@ -7,6 +7,7 @@
 var fs = require('fs')
     , logger = require('koa-logger')
     , router = require('koa-router')
+    , serve = require('koa-static')
     , session = require('koa-session')
     , koa = require('koa');
 
@@ -16,9 +17,10 @@ var app = module.exports = koa();
  * Middleware
  */
 app.use(logger());
-app.use(router(app));
 app.keys = ['secret session cookie string'];
 app.use(session());
+app.use(serve('client'));
+app.use(router(app));
 
 /**
  * Load controllers in /controllers
