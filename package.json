@@ -15,5 +15,9 @@
   "bugs": {
     "url": "[change-me]/issues"
   },
-  "homepage": "https://github.com/trflagg/koa-start"
+  "homepage": "https://github.com/trflagg/koa-start",
+  "dependencies": {
+    "koa": "^0.13.0",
+    "koa-router": "^3.7.0"
+  }
 }
