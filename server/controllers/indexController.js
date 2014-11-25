@@ -4,6 +4,8 @@
  * What happens when you first go to the site.
  */
 
+var render = require('../render');
+
 module.exports = function(app) {
     /**
      * index()
@@ -13,6 +15,6 @@ module.exports = function(app) {
      */
     app.get('/', index);
     function *index() {
-        this.body = '<img src="Winslow_Homer_004.jpg">';
+        this.body = yield render('index.html');
     }
 }
